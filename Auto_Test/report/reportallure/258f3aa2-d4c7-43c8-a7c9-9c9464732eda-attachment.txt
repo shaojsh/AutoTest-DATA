@@ -1,0 +1,3 @@
+Sat, 09 Oct 2021 17:08:52-run_all_case.py-test_login.py-[line:54]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Sat, 09 Oct 2021 17:09:00-run_all_case.py-test_login.py-[line:70]-INFO-[日志信息]: 对已注册的账户进行删除操作

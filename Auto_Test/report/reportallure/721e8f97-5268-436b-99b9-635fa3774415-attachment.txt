@@ -1,6 +1,0 @@
-Wed, 16 Dec 2020 09:24:14-run_all_case.py-test_backStage_authentication.py-[line:176]-INFO-[日志信息]: 开始执行脚本test_backStageActCreate:
-
-Wed, 16 Dec 2020 09:24:25-run_all_case.py-test_backStage_examine.py-[line:95]-INFO-[日志信息]: 成功登录后台系统
-Wed, 16 Dec 2020 09:24:25-run_all_case.py-test_backStage_authentication.py-[line:194]-INFO-[日志信息]: 机构信息DB删除
-Wed, 16 Dec 2020 09:24:43-run_all_case.py-test_backStage_authentication.py-[line:353]-INFO-[日志信息]: 进入担保公司创建页面
-Wed, 16 Dec 2020 09:24:47-run_all_case.py-test_backStage_authentication.py-[line:351]-INFO-[日志信息]: 进入银行账户创建页面

@@ -1,3 +1,0 @@
-INFO     run_all_case.py:test_backStage_examine.py:25 开始执行脚本test_backstage_examine:
-
-INFO     run_all_case.py:test_backStage_examine.py:77 成功登录后台系统

@@ -3,7 +3,5 @@
 configEvn:
   evn: "SIT1"
   runMode: 'UI'
-#https://sim.chengtay.com/cjt-web
-#https://sim.chengtay.com/cjt-admin
 
 #https://www.cnblogs.com/linliquan/p/13832221.html git 拉取最新代码并合并

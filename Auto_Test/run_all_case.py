@@ -32,11 +32,11 @@ if jenkins:
 if evn == 'SIT':
     handleyaml = HandleYaml(root_dir + '\\test_data\\ConfigGol-SIT.yaml')
     if jenkins:  # linux 路径表示
-        handleyaml = HandleYaml('/var/lib/jenkins/workspace/AutoTest-python/Auto_Test/test_data/ConfigGol-SIT.yaml')
+        handleyaml = HandleYaml('/var/lib/jenkins/workspace/AutoTest-DaTa/Auto_Test/test_data/ConfigGol-SIT.yaml')
 else:
     handleyaml = HandleYaml(root_dir + '\\test_data\\ConfigGol-UAT.yaml')
     if jenkins:  # linux 路径表示
-        handleyaml = HandleYaml('/var/lib/jenkins/workspace/AutoTest-python/Auto_Test/test_data/ConfigGol-UAT.yaml')
+        handleyaml = HandleYaml('/var/lib/jenkins/workspace/AutoTest-DaTa/Auto_Test/test_data/ConfigGol-UAT.yaml')
 
 # handleyaml = HandleYaml(os.getcwd() + '\\..\\test_data\\ConfigGol-SIT.yaml')  # 调试db用
 
@@ -44,8 +44,9 @@ yamldict = handleyaml.get_data()
 
 mobileDriver = ''
 if runMode != 'UI':
-    import androidBaseFlow
-    mobileDriver = androidBaseFlow.poco
+    pass
+    # import androidBaseFlow
+    # mobileDriver = androidBaseFlow.poco
 file = os.path.basename(sys.argv[0])
 log = Log(file)
 logger = log.Logger
@@ -63,9 +64,6 @@ if __name__ == "__main__":
                      "./report/reportallure/"])
         print("脚本执行完成")
     except Exception as e:
-        # i = i + 1
-        # im = ImageGrab.grab()  # 可以添加一个坐标元组进去
-        # im.save(os.getcwd() + '\\test_data\\error_pic\\' + i + '.jpg')
         logger.error("脚本批量执行失败！", e)
         print("脚本批量执行失败！", e)
 
@@ -80,4 +78,3 @@ if __name__ == "__main__":
         raise
 
     time.sleep(5)
-    # mail()

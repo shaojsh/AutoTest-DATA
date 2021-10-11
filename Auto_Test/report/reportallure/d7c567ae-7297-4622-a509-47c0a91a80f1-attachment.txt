@@ -1,3 +1,0 @@
-INFO     run_all_case.py:test_backStage_authentication.py:278 开始执行脚本test_backStage_authentication:
-
-INFO     run_all_case.py:test_backStage_authentication.py:281 开始执行脚本test_backStage_authentication:

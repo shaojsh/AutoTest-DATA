@@ -1,5 +1,0 @@
-INFO     run_all_case.py:test_backStage_authentication.py:173 开始执行脚本test_backStageActCreate:
-
-INFO     run_all_case.py:test_backStage_examine.py:95 成功登录后台系统
-INFO     run_all_case.py:test_backStage_authentication.py:191 机构信息DB删除
-INFO     run_all_case.py:test_backStage_authentication.py:349 进入担保公司创建页面

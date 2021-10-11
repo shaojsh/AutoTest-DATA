@@ -1,5 +1,0 @@
-Mon, 04 Jan 2021 13:07:53-run_all_case.py-test_login.py-[line:54]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
-
-Mon, 04 Jan 2021 13:08:04-run_all_case.py-test_login.py-[line:70]-INFO-[日志信息]: 对已注册的账户进行删除操作
-Mon, 04 Jan 2021 13:08:07-test_companyRegister-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
-Mon, 04 Jan 2021 13:08:07-run_all_case.py-test_login.py-[line:98]-INFO-[日志信息]: 注册成功，返回到登陆页面

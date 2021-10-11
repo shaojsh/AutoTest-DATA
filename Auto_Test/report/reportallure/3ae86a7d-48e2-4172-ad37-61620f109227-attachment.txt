@@ -1,6 +1,0 @@
-INFO     run_all_case.py:test_businessInfoReg.py:38 开始执行脚本test_businessInforReg:
-
-INFO     test_businessInforReg:Assert.py:124 except_result = actul_result, except_result is 企业基本资料, actul_result is 企业基本资料
-INFO     run_all_case.py:test_businessInfoReg.py:57 企业基本资料画面正常显示
-INFO     test_businessInforReg:Assert.py:124 except_result = actul_result, except_result is 请确认协议内容, actul_result is 请确认协议内容
-INFO     run_all_case.py:test_businessInfoReg.py:161 协议确认画面正常显示

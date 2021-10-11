@@ -1,5 +1,0 @@
-INFO     run_all_case.py:test_backStage_authentication.py:292 开始执行脚本test_backStage_authentication:
-
-INFO     run_all_case.py:test_backStage_authentication.py:295 开始执行脚本test_backStage_authentication:
-
-INFO     run_all_case.py:test_login.py:179 成功进入到密码重置页面

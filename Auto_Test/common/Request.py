@@ -5,9 +5,6 @@
 封装request
 
 """
-
-import os
-import random
 import requests
 
 # 封装get和post

@@ -1,0 +1,17 @@
+Mon, 11 Oct 2021 09:50:17-run_all_case.py-run_all_case.py-[line:58]-INFO-[日志信息]: ==================================2021-10-11 09:50:17===================================
+Mon, 11 Oct 2021 09:50:24-run_all_case.py-test_login.py-[line:54]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Mon, 11 Oct 2021 09:50:29-run_all_case.py-test_personalInfoReg.py-[line:34]-INFO-[日志信息]: 开始执行脚本test_infoReg:
+
+Mon, 11 Oct 2021 09:50:39-run_all_case.py-test_businessInfoReg.py-[line:37]-INFO-[日志信息]: 开始执行脚本test_businessInforReg:
+
+Mon, 11 Oct 2021 09:50:43-run_all_case.py-test_backStage_examine.py-[line:25]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
+
+Mon, 11 Oct 2021 09:50:47-run_all_case.py-test_backStage_authentication.py-[line:176]-INFO-[日志信息]: 开始执行脚本test_backStageActCreate:
+
+Mon, 11 Oct 2021 09:50:51-run_all_case.py-test_backStage_authentication.py-[line:292]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Mon, 11 Oct 2021 09:50:51-run_all_case.py-test_backStage_authentication.py-[line:295]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Mon, 11 Oct 2021 09:50:54-run_all_case.py-test_Tripartite_interaction.py-[line:144]-INFO-[日志信息]: 开始执行脚本test_Tripartite_interaction:
+

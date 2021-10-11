@@ -1,5 +1,0 @@
-INFO     run_all_case.py:test_login.py:54 开始执行脚本test_companyRegister:
-
-INFO     run_all_case.py:test_login.py:70 对已注册的账户进行删除操作
-INFO     test_companyRegister:Assert.py:124 except_result = actul_result, except_result is 中小微企业金融服务聚合平台, actul_result is 中小微企业金融服务聚合平台
-INFO     run_all_case.py:test_login.py:99 注册成功，返回到登陆页面

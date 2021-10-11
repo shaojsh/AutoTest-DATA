@@ -1,9 +1,0 @@
-Mon, 14 Dec 2020 15:12:57-run_all_case.py-test_backStage_authentication.py-[line:286]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
-
-Mon, 14 Dec 2020 15:12:57-run_all_case.py-test_backStage_authentication.py-[line:289]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
-
-Mon, 14 Dec 2020 15:13:11-run_all_case.py-test_login.py-[line:179]-INFO-[日志信息]: 成功进入到密码重置页面
-Mon, 14 Dec 2020 15:13:13-run_all_case.py-test_login.py-[line:186]-INFO-[日志信息]: 成功进入到密码修改完成页面
-Mon, 14 Dec 2020 15:13:17-run_all_case.py-test_login.py-[line:179]-INFO-[日志信息]: 成功进入到密码重置页面
-Mon, 14 Dec 2020 15:13:20-run_all_case.py-test_login.py-[line:186]-INFO-[日志信息]: 成功进入到密码修改完成页面
-Mon, 14 Dec 2020 15:13:21-run_all_case.py-test_backStage_examine.py-[line:95]-INFO-[日志信息]: 成功登录后台系统

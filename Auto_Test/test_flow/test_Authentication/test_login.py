@@ -29,7 +29,7 @@ def companyLoginOn():
 
     driver = webdriver.Chrome()
     driver.maximize_window()
-    driver.get(url_forward)
+    driver.get('https://www.baidu.com/')
 
     # 登陆页面
     login(driver)
@@ -39,7 +39,7 @@ def companyLoginOn():
     homeText = driver.find_element_by_css_selector(loginOn.link_home_css.value)
 
     test_Assert.assert_text_ui(homeText.text, '首页')
-    logger.info("中小微企业金融服务聚合平台登录成功！")
+    logger.info("lalalallalalalalalalalalalalalalalala！")
     driver.quit()
 
 
@@ -64,9 +64,9 @@ def test_companyRegister():
         else:
             driver = webdriver.Chrome(executable_path=driverPath)
         driver.maximize_window()
+        driver.get('https://www.baidu.com/')
         driver.get(url_ui_register)
-        # db中清除已注册的账户
-        deleteInforMobile()
+
         logger.info("对已注册的账户进行删除操作")
         sleep(1)
         waitUntilClick(driver, loginOn.btn_agree_css.value)
@@ -99,7 +99,7 @@ def test_companyRegister():
         sleep(1)
         driver.quit()
     else:
-        # touch(Template(r"C:\Users\shaojunshuai\PycharmProjects\AutoTest-python\Auto_Test\test_data\picture\id_5.png"))
+        # touch(Template(r"C:\Users\shaojunshuai\PycharmProjects\AutoTest-DaTa\Auto_Test\test_data\picture\id_5.png"))
         logger.info("小程序自动化测试开始")
         startWeinxin()
         deleteInforMobile()  # 删除个人信息

@@ -1,3 +1,0 @@
-Mon, 14 Dec 2020 14:08:31-run_all_case.py-test_backStage_examine.py-[line:25]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
-
-Mon, 14 Dec 2020 14:08:42-run_all_case.py-test_backStage_examine.py-[line:85]-INFO-[日志信息]: 成功登录后台系统

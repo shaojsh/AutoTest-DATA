@@ -1,3 +1,0 @@
-Fri, 20 Nov 2020 14:08:28-run_all_case.py-test_personalInfoReg.py-[line:34]-INFO-[日志信息]: 开始执行脚本test_infoReg:
-
-Fri, 20 Nov 2020 14:08:28-run_all_case.py-test_personalInfoReg.py-[line:38]-INFO-[日志信息]: 对个人信息企业信息进行删除操作

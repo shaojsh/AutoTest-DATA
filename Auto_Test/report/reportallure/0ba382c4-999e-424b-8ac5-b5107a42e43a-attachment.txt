@@ -1,6 +1,0 @@
-Wed, 16 Dec 2020 10:29:01-run_all_case.py-test_Tripartite_interaction.py-[line:144]-INFO-[日志信息]: 开始执行脚本test_Tripartite_interaction:
-
-Wed, 16 Dec 2020 10:29:12-run_all_case.py-test_Tripartite_interaction.py-[line:160]-INFO-[日志信息]: 前端账户登录授信申请
-Wed, 16 Dec 2020 10:29:17-run_all_case.py-test_Tripartite_interaction.py-[line:378]-INFO-[日志信息]: 进入到前端首页
-Wed, 16 Dec 2020 10:29:17-run_all_case.py-test_Tripartite_interaction.py-[line:381]-INFO-[日志信息]: 进入到前端进入产品选择首页
-Wed, 16 Dec 2020 10:29:20-run_all_case.py-test_Tripartite_interaction.py-[line:386]-INFO-[日志信息]: 进入到前端进入产品详情页

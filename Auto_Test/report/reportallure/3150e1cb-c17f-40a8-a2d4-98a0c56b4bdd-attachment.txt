@@ -1,6 +1,0 @@
-INFO     run_all_case.py:test_backStage_examine.py:25 开始执行脚本test_backstage_examine:
-
-INFO     run_all_case.py:test_backStage_examine.py:95 成功登录后台系统
-INFO     test_backstage_examine:Assert.py:124 except_result = actul_result, except_result is 用户基本信息, actul_result is 用户基本信息
-INFO     run_all_case.py:test_backStage_examine.py:65 成功进入企业信息审核画面
-INFO     run_all_case.py:test_backStage_examine.py:82 企业认证通过

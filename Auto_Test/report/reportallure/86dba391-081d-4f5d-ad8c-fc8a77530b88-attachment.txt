@@ -1,3 +1,0 @@
-token为：58bfba5a-a1b6-4ec1-8129-6a97f6bbcec0
-Pipeline<ConnectionPool<Connection<host=10.10.128.128,port=6739,db=2>>>
-<Response [200]>
