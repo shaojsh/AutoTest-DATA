@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # -*- coding: UTF-8 _*_
 configEvn:
-  evn: "SIT1"
+  evn: "SIT"
   runMode: 'UI'
 
 #https://www.cnblogs.com/linliquan/p/13832221.html git 拉取最新代码并合并

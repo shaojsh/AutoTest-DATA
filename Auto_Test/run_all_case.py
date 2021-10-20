@@ -57,7 +57,7 @@ if __name__ == "__main__":
         logger.info("==================================" + time.strftime('%Y-%m-%d %H:%M:%S',
                                                                          time.localtime()) + "===================================")
         if not jenkins:
-            root_dir = os.path.dirname(os.path.abspath('.')) + '\\AuToTest-DaTa' + yamldict['test_path_list']['url_ui']
+            root_dir = os.path.dirname(os.path.abspath('.')) + '\\AuTo_Test' + yamldict['test_path_list']['url_ui']
         else:
             root_dir = os.path.dirname(os.path.abspath('.')) + '/AuToTest-DaTa/Auto_Test' + RunPath
         pytest.main([root_dir, "--alluredir","./report/reportallure/"])

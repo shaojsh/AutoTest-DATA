@@ -1,0 +1,1 @@
+INFO     run_all_case.py:test_jenkinsDebug.py:16 开始执行脚本test_baidu:

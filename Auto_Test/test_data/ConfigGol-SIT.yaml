@@ -5,7 +5,7 @@
 test_path_list:
   url_ui1: '/test_case/test_Api_demo/test_api_per.py'
   url_ui2: '/test_flow/test_Authentication/test_backStage_authentication.py'
-  url_ui: '/test_flow/'
+  url_ui: '/test_flow/test_Authentication/test_jenkinsDebug.py'
   url_ui_forward: 'http://10.10.128.152:10053/user/login'
   url_ui_back: 'http://10.10.128.152:10052/#/account/login'
   url_ui_register: 'http://10.10.128.152:10053/user/register'
