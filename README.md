@@ -11,5 +11,5 @@ pip install -r requirements.txt
 windows10 
 python -m pip install locust  --trusted-host=pypi.python.org --trusted-host=pypi.org --trusted-host=files.pythonhosted.org
 locust 参数介绍：https://www.cnblogs.com/imyalost/p/9758189.html
-
+##
 git config --global http.sslVerify false
