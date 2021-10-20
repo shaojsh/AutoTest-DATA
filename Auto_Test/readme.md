@@ -21,4 +21,4 @@ TRIVIAL = 'trivial'　　轻微缺陷　
 
 schtasks /create /tn oss_download /tr python C:\Users\shaojunshuai\Desktop\start.py /sc daily /st 10:06:00
 schtasks /create /tn start_up /sc daily /st 10:14:00 /tr python C:\Users\shaojunshuai\Desktop\start.py
-
+lala
