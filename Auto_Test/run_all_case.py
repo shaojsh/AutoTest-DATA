@@ -59,7 +59,7 @@ if __name__ == "__main__":
         if not jenkins:
             root_dir = os.path.dirname(os.path.abspath('.')) + '\\AuToTest-DaTa' + yamldict['test_path_list']['url_ui']
         else:
-            root_dir = os.path.dirname(os.path.abspath('.')) + '/AuToTest-DaTa/AuToTest' + RunPath
+            root_dir = os.path.dirname(os.path.abspath('.')) + '/AuToTest-DaTa/AutoTest' + RunPath
         pytest.main([root_dir, "--alluredir","./report/reportallure/"])
         print("脚本执行完成")
     except Exception as e:
