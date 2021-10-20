@@ -4,7 +4,7 @@ import time
 import os
 import sys
 from common.Logs import Log
-import pytest
+# import pytest
 from common import Shell
 
 from common.Yaml_Data import HandleYaml
@@ -60,7 +60,7 @@ if __name__ == "__main__":
             root_dir = os.path.dirname(os.path.abspath('.')) + '\\Auto_Test' + yamldict['test_path_list']['url_ui']
         else:
             root_dir = os.path.dirname(os.path.abspath('.')) + '/Auto_Test' + RunPath
-        pytest.main([root_dir, "--alluredir","./report/reportallure/"])
+        # pytest.main([root_dir, "--alluredir","./report/reportallure/"])
         print("脚本执行完成")
     except Exception as e:
         logger.error("脚本批量执行失败！", e)
