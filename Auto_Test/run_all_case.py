@@ -30,6 +30,8 @@ if jenkins:
     RunPath = os.environ["RunPath"]
     driverPath = os.path.dirname(os.path.abspath('.')) + '\\Auto_Test\\' + 'chromedriver'
 
+# 打印 driverPath 路径
+print("++++++++++++++++++++++++++"+driverPath+"+++++++++++++++++++++++++++")
 if evn == 'SIT':
     handleyaml = HandleYaml(root_dir + '\\test_data\\ConfigGol-SIT.yaml')
     if jenkins:  # linux 路径表示
