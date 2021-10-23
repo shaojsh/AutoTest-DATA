@@ -19,15 +19,16 @@ try:
 except:
     print('本地环境测试')
 # 环境run取得
-driverPath = os.path.dirname(os.path.abspath('.')) + '\\Auto_Test\\' + 'chromedriver.exe'
 if not jenkins:  # 本地 获取参数
     config = HandleYaml(root_dir + '\\test_data\\config.yaml')
     runMode = config.get_data()['configEvn']['runMode']
     evn = config.get_data()['configEvn']['evn']
+    driverPath = os.path.dirname(os.path.abspath('.')) + '\\Auto_Test\\' + 'chromedriver.exe'
 if jenkins:
     runMode = os.environ["runMode"]
     evn = os.environ["evn"]
     RunPath = os.environ["RunPath"]
+    driverPath = os.path.dirname(os.path.abspath('.')) + '\\Auto_Test\\' + 'chromedriver'
 
 if evn == 'SIT':
     handleyaml = HandleYaml(root_dir + '\\test_data\\ConfigGol-SIT.yaml')
