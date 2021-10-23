@@ -28,7 +28,7 @@ if jenkins:
     runMode = os.environ["runMode"]
     evn = os.environ["evn"]
     RunPath = os.environ["RunPath"]
-    driverPath = os.path.dirname(os.path.abspath('.')) + '\\AuToTest-DaTa\\Auto_Test\\' + 'chromedriver'
+    driverPath = os.path.dirname(os.path.abspath('.')) + '/AuToTest-DaTa/Auto_Test/' + 'chromedriver'
 
 # 打印 driverPath 路径
 print("++++++++++++++++++++++++++"+driverPath+"+++++++++++++++++++++++++++")
