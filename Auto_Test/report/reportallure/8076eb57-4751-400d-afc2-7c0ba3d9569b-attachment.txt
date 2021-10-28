@@ -1,1 +1,0 @@
-INFO     run_all_case.py:test_personalInfoReg.py:34 开始执行脚本test_infoReg:

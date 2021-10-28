@@ -1,3 +1,0 @@
-INFO     run_all_case.py:test_login.py:54 开始执行脚本test_companyRegister:
-
-INFO     run_all_case.py:test_login.py:70 对已注册的账户进行删除操作

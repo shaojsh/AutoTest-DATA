@@ -1,2 +1,0 @@
-SET SQL_SAFE_UPDATES = 0;
-update `chengtay-zcd`.enterprise set name = 'oldcompanyname' where name in ('山东沁园春市政园林工程有限公司');

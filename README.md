@@ -13,3 +13,11 @@ python -m pip install locust  --trusted-host=pypi.python.org --trusted-host=pypi
 locust 参数介绍：https://www.cnblogs.com/imyalost/p/9758189.html
 ##
 git config --global http.sslVerify false
+
+
+# git 操作
+1.创建分支提交代码命令
+git checkout -b shaojsh   1.创建分支  2. -b  分支切换到刚被创建的分支
+
+2.提交
+git add ./

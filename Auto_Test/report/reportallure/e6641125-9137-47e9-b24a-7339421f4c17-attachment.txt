@@ -1,2 +1,0 @@
-Mon, 11 Oct 2021 09:50:29-run_all_case.py-test_personalInfoReg.py-[line:34]-INFO-[日志信息]: 开始执行脚本test_infoReg:
-

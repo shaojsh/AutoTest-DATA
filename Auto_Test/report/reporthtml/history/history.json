@@ -1,141 +1,20 @@
 {
-  "d91e7b4392163e0b46289a9f8b97b16c" : {
+  "ef18f58fa35399a0b182df8cebb7c760" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c6f0e631db49c164",
-      "status" : "broken",
-      "statusDetails" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 87\nCurrent browser version is 94.0.4606.71 with binary path C:\\Users\\Administrator\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe",
+      "uid" : "b4c839aad50f2504",
+      "status" : "passed",
       "time" : {
-        "start" : 1633917054721,
-        "stop" : 1633917058350,
-        "duration" : 3629
-      }
-    } ]
-  },
-  "fa363551da3b313dda3c470cf52ad218" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "41585da2705415df",
-      "status" : "broken",
-      "statusDetails" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 87\nCurrent browser version is 94.0.4606.71 with binary path C:\\Users\\Administrator\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe",
-      "time" : {
-        "start" : 1633917043726,
-        "stop" : 1633917047347,
-        "duration" : 3621
-      }
-    } ]
-  },
-  "dd0646a5c1a798e47c4f25747509dea9" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "f3b550056631c3e9",
-      "status" : "broken",
-      "statusDetails" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 87\nCurrent browser version is 94.0.4606.71 with binary path C:\\Users\\Administrator\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe",
-      "time" : {
-        "start" : 1633917024983,
-        "stop" : 1633917029708,
-        "duration" : 4725
-      }
-    } ]
-  },
-  "673c6cf796d54f5cbc2e9852ef4f69c7" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "ba3d609d8f0bdec2",
-      "status" : "broken",
-      "statusDetails" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 87\nCurrent browser version is 94.0.4606.71 with binary path C:\\Users\\Administrator\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe",
-      "time" : {
-        "start" : 1633917039875,
-        "stop" : 1633917043698,
-        "duration" : 3823
-      }
-    } ]
-  },
-  "28dda5313ff182aeade3becf47df4372" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "b2bf1caf2a76fe27",
-      "status" : "broken",
-      "statusDetails" : "pymysql.err.OperationalError: (2003, \"Can't connect to MySQL server on '10.10.128.128' (timed out)\")",
-      "time" : {
-        "start" : 1633917029799,
-        "stop" : 1633917039818,
-        "duration" : 10019
-      }
-    } ]
-  },
-  "d85ebd52118862a52004a5c4faaac530" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "1c84587a1472c7d0",
-      "status" : "broken",
-      "statusDetails" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 87\nCurrent browser version is 94.0.4606.71 with binary path C:\\Users\\Administrator\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe",
-      "time" : {
-        "start" : 1633917047396,
-        "stop" : 1633917051047,
-        "duration" : 3651
-      }
-    } ]
-  },
-  "a55d1468f36f1b2cdddeddca0f290d7d" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "1eda9e5b47309759",
-      "status" : "broken",
-      "statusDetails" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 87\nCurrent browser version is 94.0.4606.71 with binary path C:\\Users\\Administrator\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe",
-      "time" : {
-        "start" : 1633917051075,
-        "stop" : 1633917054690,
-        "duration" : 3615
+        "start" : 1635217008390,
+        "stop" : 1635217013355,
+        "duration" : 4965
       }
     } ]
   }

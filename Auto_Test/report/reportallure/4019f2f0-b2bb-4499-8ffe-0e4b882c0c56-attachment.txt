@@ -1,1 +1,0 @@
-Wed, 20 Oct 2021 17:24:34-test_baidu-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 登录, actul_result is 登录

@@ -1,1 +1,0 @@
-INFO     run_all_case.py:test_login.py:54 开始执行脚本test_companyRegister:

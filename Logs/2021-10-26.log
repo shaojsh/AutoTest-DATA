@@ -1,0 +1,39 @@
+Tue, 26 Oct 2021 09:58:47-run_all_case.py-run_all_case.py-[line:61]-INFO-[日志信息]: ==================================2021-10-26 09:58:47===================================
+Tue, 26 Oct 2021 09:58:53-test_baidu-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 登录, actul_result is 登录
+Tue, 26 Oct 2021 09:58:53-run_all_case.py-test_jenkinsDebug.py-[line:29]-INFO-[日志信息]: 成功进入百度首页
+Tue, 26 Oct 2021 09:59:36-run_all_case.py-run_all_case.py-[line:61]-INFO-[日志信息]: ==================================2021-10-26 09:59:36===================================
+Tue, 26 Oct 2021 09:59:42-test_baidu-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 登录, actul_result is 登录
+Tue, 26 Oct 2021 09:59:42-run_all_case.py-test_jenkinsDebug.py-[line:29]-INFO-[日志信息]: 成功进入百度首页
+Tue, 26 Oct 2021 10:00:28-run_all_case.py-run_all_case.py-[line:61]-INFO-[日志信息]: ==================================2021-10-26 10:00:28===================================
+Tue, 26 Oct 2021 10:00:39-test_baidu-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 登录, actul_result is 登录
+Tue, 26 Oct 2021 10:00:39-run_all_case.py-test_jenkinsDebug.py-[line:29]-INFO-[日志信息]: 成功进入百度首页
+Tue, 26 Oct 2021 10:00:42-run_all_case.py-test_login.py-[line:54]-INFO-[日志信息]: 开始执行脚本test_companyRegister:
+
+Tue, 26 Oct 2021 10:00:50-run_all_case.py-test_login.py-[line:70]-INFO-[日志信息]: 对已注册的账户进行删除操作
+Tue, 26 Oct 2021 10:01:04-run_all_case.py-test_personalInfoReg.py-[line:34]-INFO-[日志信息]: 开始执行脚本test_infoReg:
+
+Tue, 26 Oct 2021 10:01:14-run_all_case.py-test_businessInfoReg.py-[line:37]-INFO-[日志信息]: 开始执行脚本test_businessInforReg:
+
+Tue, 26 Oct 2021 10:01:22-run_all_case.py-test_backStage_examine.py-[line:25]-INFO-[日志信息]: 开始执行脚本test_backstage_examine:
+
+Tue, 26 Oct 2021 10:01:42-run_all_case.py-test_backStage_authentication.py-[line:176]-INFO-[日志信息]: 开始执行脚本test_backStageActCreate:
+
+Tue, 26 Oct 2021 10:02:09-run_all_case.py-test_backStage_authentication.py-[line:292]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Tue, 26 Oct 2021 10:02:09-run_all_case.py-test_backStage_authentication.py-[line:295]-INFO-[日志信息]: 开始执行脚本test_backStage_authentication:
+
+Tue, 26 Oct 2021 10:02:17-run_all_case.py-test_Tripartite_interaction.py-[line:144]-INFO-[日志信息]: 开始执行脚本test_Tripartite_interaction:
+
+Tue, 26 Oct 2021 10:07:11-run_all_case.py-run_all_case.py-[line:61]-INFO-[日志信息]: ==================================2021-10-26 10:07:11===================================
+Tue, 26 Oct 2021 10:07:16-test_baidu-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 登录, actul_result is 登录
+Tue, 26 Oct 2021 10:07:16-run_all_case.py-test_jenkinsDebug.py-[line:29]-INFO-[日志信息]: 成功进入百度首页
+Tue, 26 Oct 2021 10:10:05-run_all_case.py-run_all_case.py-[line:61]-INFO-[日志信息]: ==================================2021-10-26 10:10:05===================================
+Tue, 26 Oct 2021 10:10:10-test_baidu-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 登录, actul_result is 登录
+Tue, 26 Oct 2021 10:12:10-run_all_case.py-run_all_case.py-[line:61]-INFO-[日志信息]: ==================================2021-10-26 10:12:10===================================
+Tue, 26 Oct 2021 10:12:15-test_baidu-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 登录, actul_result is 登录
+Tue, 26 Oct 2021 10:19:23-run_all_case.py-run_all_case.py-[line:61]-INFO-[日志信息]: ==================================2021-10-26 10:19:23===================================
+Tue, 26 Oct 2021 10:19:28-test_baidu-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 登录, actul_result is 登录
+Tue, 26 Oct 2021 10:23:37-run_all_case.py-run_all_case.py-[line:61]-INFO-[日志信息]: ==================================2021-10-26 10:23:37===================================
+Tue, 26 Oct 2021 10:23:42-test_baidu-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 登录, actul_result is 登录
+Tue, 26 Oct 2021 10:56:47-run_all_case.py-run_all_case.py-[line:61]-INFO-[日志信息]: ==================================2021-10-26 10:56:47===================================
+Tue, 26 Oct 2021 10:56:53-test_baidu-Assert.py-[line:124]-INFO-[日志信息]: except_result = actul_result, except_result is 登录, actul_result is 登录
