@@ -21,3 +21,9 @@ git checkout -b shaojsh   1.创建分支  2. -b  分支切换到刚被创建的�
 
 2.提交
 git add ./
+git commit -m''
+git push
+
+3.切换到master分支
+git checkout master
+
