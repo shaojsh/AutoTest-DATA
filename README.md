@@ -17,7 +17,7 @@ git config --global http.sslVerify false
 
 # git 操作
 1.创建分支提交代码命令
-git checkout -b shaojsh   1.创建分支  2. -b  分支切换到刚被创建的分支
+git checkout -b xxx   1.创建分支  2. -b  分支切换到刚被创建的分支
 
 2.提交
 git add ./
@@ -26,4 +26,17 @@ git push
 
 3.切换到master分支
 git checkout master
+
+4.merge分支
+git merge xxx
+
+5.push
+git push
+
+拉取远程最新代码：
+git reset --hard
+git pull origin master
+
+删除分支
+git branch -d xxx
 

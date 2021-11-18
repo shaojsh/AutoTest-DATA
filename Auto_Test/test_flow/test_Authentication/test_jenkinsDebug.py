@@ -3,8 +3,10 @@ import pytest
 import sys
 from selenium import webdriver
 from common import Assert
-from run_all_case import logger,runMode,jenkins,driverPath
+from run_all_case import jenkins, driverPath
 from time import sleep
+
+
 @pytest.mark.run(order=1)
 @allure.severity("blocker")
 @allure.description("测试 http://10.10.128.152:10053/user/register 中小微企业注册流程")
@@ -26,5 +28,3 @@ def test_baidu():
     sleep(1)
     text = driver.find_element_by_id('s-top-loginbtn').text
     test_Assert.assert_text_ui(text, '登录')
-
-

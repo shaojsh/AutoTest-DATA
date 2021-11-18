@@ -4,21 +4,21 @@
   "children" : [ {
     "name" : "BF-202011271053",
     "children" : [ {
-      "name" : "12008-MainThread",
+      "name" : "5628-MainThread",
       "children" : [ {
         "name" : "test_baidu",
-        "uid" : "b4c839aad50f2504",
-        "parentUid" : "f192f7fb85c6e576b4c0ee0654d4b910",
-        "status" : "passed",
+        "uid" : "771138c5d620931d",
+        "parentUid" : "75ce87a518650edc4bffc86358c30061",
+        "status" : "broken",
         "time" : {
-          "start" : 1635217008390,
-          "stop" : 1635217013355,
-          "duration" : 4965
+          "start" : 1636696033546,
+          "stop" : 1636696037139,
+          "duration" : 3593
         },
         "flaky" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "f192f7fb85c6e576b4c0ee0654d4b910"
+      "uid" : "75ce87a518650edc4bffc86358c30061"
     } ],
     "uid" : "818aa430bf6edf2f313bc635559f7ff2"
   } ]

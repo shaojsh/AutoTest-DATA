@@ -1,11 +1,11 @@
 [ {
-  "uid" : "b4c839aad50f2504",
+  "uid" : "771138c5d620931d",
   "name" : "test_baidu",
   "time" : {
-    "start" : 1635217008390,
-    "stop" : 1635217013355,
-    "duration" : 4965
+    "start" : 1636696033546,
+    "stop" : 1636696037139,
+    "duration" : 3593
   },
-  "status" : "passed",
+  "status" : "broken",
   "severity" : "blocker"
 } ]

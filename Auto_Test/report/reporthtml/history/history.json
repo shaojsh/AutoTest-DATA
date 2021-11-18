@@ -2,19 +2,20 @@
   "ef18f58fa35399a0b182df8cebb7c760" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b4c839aad50f2504",
-      "status" : "passed",
+      "uid" : "771138c5d620931d",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 87\nCurrent browser version is 91.0.4472.77 with binary path C:\\Users\\Administrator\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe",
       "time" : {
-        "start" : 1635217008390,
-        "stop" : 1635217013355,
-        "duration" : 4965
+        "start" : 1636696033546,
+        "stop" : 1636696037139,
+        "duration" : 3593
       }
     } ]
   }

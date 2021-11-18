@@ -1,12 +1,12 @@
 {
-  "uid" : "b4c839aad50f2504",
+  "uid" : "cf3b15d082a6e324",
   "name" : "test_baidu",
   "fullName" : "test_flow.test_Authentication.test_jenkinsDebug#test_baidu",
   "historyId" : "ef18f58fa35399a0b182df8cebb7c760",
   "time" : {
-    "start" : 1635217008390,
-    "stop" : 1635217013355,
-    "duration" : 4965
+    "start" : 1635494856256,
+    "stop" : 1635494861349,
+    "duration" : 5093
   },
   "description" : "测试 http://10.10.128.152:10053/user/register 中小微企业注册流程",
   "descriptionHtml" : "<p>测试 http://10.10.128.152:10053/user/register 中小微企业注册流程</p>\n",
@@ -15,41 +15,41 @@
   "beforeStages" : [ {
     "name" : "_session_faker",
     "time" : {
-      "start" : 1635217008321,
-      "stop" : 1635217008389,
-      "duration" : 68
+      "start" : 1635494856181,
+      "stop" : 1635494856255,
+      "duration" : 74
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 0,
-    "hasContent" : false,
     "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
   } ],
   "testStage" : {
     "description" : "测试 http://10.10.128.152:10053/user/register 中小微企业注册流程",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "d03e3afeb5a1ab67",
+      "uid" : "462d3720de0d0896",
       "name" : "log",
-      "source" : "d03e3afeb5a1ab67.txt",
+      "source" : "462d3720de0d0896.txt",
       "type" : "text/plain",
       "size" : 111
     }, {
-      "uid" : "ccf9d6fce4698d55",
+      "uid" : "b25cafcdc35e281a",
       "name" : "stderr",
-      "source" : "ccf9d6fce4698d55.txt",
+      "source" : "b25cafcdc35e281a.txt",
       "type" : "text/plain",
       "size" : 157
     } ],
     "parameters" : [ ],
-    "stepsCount" : 0,
-    "hasContent" : true,
     "attachmentsCount" : 2,
-    "shouldDisplayMessage" : false
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -69,7 +69,7 @@
     "value" : "BF-202011271053"
   }, {
     "name" : "thread",
-    "value" : "12008-MainThread"
+    "value" : "2708-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -89,30 +89,12 @@
     "url" : "http://10.10.128.152:10053/user/register",
     "type" : "test_case"
   } ],
-  "hidden" : false,
-  "retry" : false,
+  "hidden" : true,
+  "retry" : true,
   "extra" : {
-    "severity" : "blocker",
-    "retries" : [ {
-      "uid" : "37c9215409b05bb2",
-      "status" : "passed",
-      "time" : {
-        "start" : 1635215017504,
-        "stop" : 1635215022501,
-        "duration" : 4997
-      }
-    }, {
-      "uid" : "2be1a4874a3467b1",
-      "status" : "passed",
-      "time" : {
-        "start" : 1635214763621,
-        "stop" : 1635214768628,
-        "duration" : 5007
-      }
-    } ],
     "categories" : [ ],
     "tags" : [ "run(order=1)" ]
   },
-  "source" : "b4c839aad50f2504.json",
+  "source" : "cf3b15d082a6e324.json",
   "parameterValues" : [ ]
 }

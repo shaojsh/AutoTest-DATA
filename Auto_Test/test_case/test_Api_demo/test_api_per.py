@@ -9,7 +9,6 @@ import pytest
 
 from common.Request import RequestsHandler
 import allure
-from common import Assert
 from common.Retrun_Response import dict_style
 
 from common.Yaml_Data import HandleYaml

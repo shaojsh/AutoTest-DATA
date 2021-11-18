@@ -1,12 +1,12 @@
 {
-  "uid" : "37c9215409b05bb2",
+  "uid" : "42d31c66903a33b8",
   "name" : "test_baidu",
   "fullName" : "test_flow.test_Authentication.test_jenkinsDebug#test_baidu",
   "historyId" : "ef18f58fa35399a0b182df8cebb7c760",
   "time" : {
-    "start" : 1635215017504,
-    "stop" : 1635215022501,
-    "duration" : 4997
+    "start" : 1635214763621,
+    "stop" : 1635214768628,
+    "duration" : 5007
   },
   "description" : "测试 http://10.10.128.152:10053/user/register 中小微企业注册流程",
   "descriptionHtml" : "<p>测试 http://10.10.128.152:10053/user/register 中小微企业注册流程</p>\n",
@@ -15,41 +15,41 @@
   "beforeStages" : [ {
     "name" : "_session_faker",
     "time" : {
-      "start" : 1635215017436,
-      "stop" : 1635215017503,
-      "duration" : 67
+      "start" : 1635214763554,
+      "stop" : 1635214763620,
+      "duration" : 66
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 0,
-    "hasContent" : false,
     "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
   } ],
   "testStage" : {
     "description" : "测试 http://10.10.128.152:10053/user/register 中小微企业注册流程",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "ef421c8394985630",
+      "uid" : "c77e113374e9ae42",
       "name" : "log",
-      "source" : "ef421c8394985630.txt",
+      "source" : "c77e113374e9ae42.txt",
       "type" : "text/plain",
       "size" : 111
     }, {
-      "uid" : "422e241ce574dd35",
+      "uid" : "191259bc79c82673",
       "name" : "stderr",
-      "source" : "422e241ce574dd35.txt",
+      "source" : "191259bc79c82673.txt",
       "type" : "text/plain",
-      "size" : 157
+      "size" : 158
     } ],
     "parameters" : [ ],
-    "stepsCount" : 0,
-    "hasContent" : true,
     "attachmentsCount" : 2,
-    "shouldDisplayMessage" : false
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -69,7 +69,7 @@
     "value" : "BF-202011271053"
   }, {
     "name" : "thread",
-    "value" : "11084-MainThread"
+    "value" : "8056-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -95,6 +95,6 @@
     "categories" : [ ],
     "tags" : [ "run(order=1)" ]
   },
-  "source" : "37c9215409b05bb2.json",
+  "source" : "42d31c66903a33b8.json",
   "parameterValues" : [ ]
 }
