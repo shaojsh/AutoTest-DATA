@@ -30,14 +30,6 @@ class AesCrypt():
         self.decrypt_text = self.aes.decrypt(text)
         return self.decrypt_text.decode('utf-8').strip('\0')
 
-    def aesdecrypt(self, text):
-        # CBC解密须要从新建立一个aes对象
-        if self.model == AES.MODE_CBC:
-            self.aes = AES.new(self.key, self.model, self.iv)
-        text = base64.decodebytes(text.encode('utf-8'))
-        self.decrypt_text = self.aes.decrypt(text)
-        return self.decrypt_text.decode('utf-8').strip('\0')
-
     def aesencrypt(self, text):
         # CBC加密须要从新建立一个aes对象
         text = str(text).encode('utf-8')
@@ -50,14 +42,25 @@ class AesCrypt():
 
 
 if __name__ == '__main__':
+    # 加解密flag flag =1 是加密
+    flag = 2
+
     key = '1raa70xiea6r1qm0'
     iv = '83h8ew1kx0gcsn4x'
     model = 'CBC'
     pr = AesCrypt(key, model, iv)
 
-    # 注入参数加解密
-    word = 'PiPzX8/fVg08OOoCD61zr42+/GRAC5l8GzrkXZFoL72vWaXlWogxy6shQLfQK/Px'
+    # 注入参数加密
+    word1 = """{"pageNum":1,"pageSize":10,"realName":"郑刚","phone":"123","identityCard":""}"""
+
+    # 注入参数解密
+    word2 = "rlI525yNqQkZ4jKq98qQM0QpgN67tNN5ZR+sDsUY4rfVeKGgd2WqTVe+piFKABGydM1EdT5X4uaY/ueWNbLxwQ+hpq1U4Bzp85OIGEFY/ao="
     # 解密
     # print(pr.aesdecrypt(word))
     # 加密
-    print(pr.aesencrypt(word))
+    if flag == 1:
+        # 加密
+        print(pr.aesencrypt(word1))
+    else:
+        # 解密
+        print(pr.aesdecrypt(word2))
