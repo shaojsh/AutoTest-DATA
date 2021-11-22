@@ -1,0 +1,44 @@
+[11:07:33][DEBUG]<airtest.core.android.adb> D:\python\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 4ed137f8 shell pm clear com.future.shopping
+[11:07:33][DEBUG]<airtest.core.android.adb> D:\python\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 4ed137f8 shell monkey -p com.future.shopping -c android.intent.category.LAUNCHER 1
+[11:07:51][DEBUG]<airtest.core.android.adb> D:\python\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 4ed137f8 shell ls /data/local/tmp/minicap
+[11:07:52][DEBUG]<airtest.core.android.adb> D:\python\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 4ed137f8 shell ls /data/local/tmp/minicap.so
+[11:07:52][DEBUG]<airtest.core.android.adb> D:\python\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 4ed137f8 shell LD_LIBRARY_PATH=/data/local/tmp /data/local/tmp/minicap -v 2>&1
+[11:07:52][DEBUG]<airtest.core.android.minicap> version:6
+[11:07:52][DEBUG]<airtest.core.android.minicap> skip install minicap
+[11:07:52][DEBUG]<airtest.core.android.adb> D:\python\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 4ed137f8 shell LD_LIBRARY_PATH=/data/local/tmp /data/local/tmp/minicap -i
+[11:07:52][DEBUG]<airtest.core.android.adb> D:\python\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 4ed137f8 shell dumpsys window displays
+[11:07:52][DEBUG]<airtest.core.android.adb> D:\python\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 4ed137f8 shell ls /data/local/tmp/maxpresent.jar
+[11:07:52][DEBUG]<airtest.core.android.adb> D:\python\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 4ed137f8 shell stat -c %s /data/local/tmp/maxpresent.jar
+[11:07:52][DEBUG]<airtest.core.android.touch_methods.maxtouch> install maxpresent.jar skipped
+[11:07:52][DEBUG]<airtest.core.android.adb> D:\python\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 4ed137f8 shell LD_LIBRARY_PATH=/data/local/tmp /data/local/tmp/minicap -i
+[11:07:53][DEBUG]<airtest.core.android.adb> D:\python\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 4ed137f8 shell dumpsys window displays
+[11:07:53][DEBUG]<airtest.core.android.adb> D:\python\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 4ed137f8 forward --no-rebind tcp:16897 localabstract:maxpresent_16897
+[11:07:53][DEBUG]<airtest.core.android.adb> D:\python\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 4ed137f8 shell app_process -Djava.class.path=/data/local/tmp/maxpresent.jar /data/local/tmp com.netease.maxpresent.MaxPresent socket maxpresent_16897
+[11:07:53][DEBUG]<airtest.utils.nbsp> [airtouch_server]b'Metrics Message : 2340.0=====1080.0'
+[11:07:53][DEBUG]<airtest.utils.nbsp> [airtouch_server]b'Start local socket (maxpresent_16897) server...'
+[11:08:45][INFO]<airtest.core.api> Try finding:
+Template(C:\Users\Administrator\AutoTest-DaTa\Auto_Test\test_data\picture\zhihuixuwei001.png)
+[11:08:45][DEBUG]<airtest.core.android.adb> D:\python\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 4ed137f8 shell pm path jp.co.cyberagent.stf.rotationwatcher
+[11:08:45][DEBUG]<airtest.core.android.adb> D:\python\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 4ed137f8 shell export CLASSPATH=/data/app/jp.co.cyberagent.stf.rotationwatcher-pLiW-_SZueiC_Xz7IK9I-g==/base.apk;exec app_process /system/bin jp.co.cyberagent.stf.rotationwatcher.RotationWatcher
+[11:08:46][DEBUG]<airtest.core.android.adb> D:\python\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 4ed137f8 forward --no-rebind tcp:13808 localabstract:minicap_13808
+[11:08:46][DEBUG]<airtest.core.android.adb> D:\python\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 4ed137f8 shell LD_LIBRARY_PATH=/data/local/tmp /data/local/tmp/minicap -i
+[11:08:46][DEBUG]<airtest.core.android.adb> D:\python\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 4ed137f8 shell dumpsys window displays
+[11:08:46][DEBUG]<airtest.core.android.adb> D:\python\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 4ed137f8 shell LD_LIBRARY_PATH=/data/local/tmp /data/local/tmp/minicap -n 'minicap_13808' -P 1080x2340@1080x2340/0 -l 2>&1
+[11:08:46][DEBUG]<airtest.utils.nbsp> [minicap_server]b'PID: 6500'
+[11:08:46][DEBUG]<airtest.utils.nbsp> [minicap_server]b'INFO: Using projection 1080x2340@1080x2340/0'
+[11:08:46][DEBUG]<airtest.utils.nbsp> [minicap_server]b'INFO: (external/MY_minicap/src/minicap_29.cpp:241) Creating SurfaceComposerClient'
+[11:08:47][DEBUG]<airtest.utils.nbsp> [minicap_server]b'INFO: (external/MY_minicap/src/minicap_29.cpp:244) Performing SurfaceComposerClient init check'
+[11:08:47][DEBUG]<airtest.utils.nbsp> [minicap_server]b'INFO: (external/MY_minicap/src/minicap_29.cpp:255) Creating virtual display'
+[11:08:47][DEBUG]<airtest.utils.nbsp> [minicap_server]b'INFO: (external/MY_minicap/src/minicap_29.cpp:261) Creating buffer queue'
+[11:08:47][DEBUG]<airtest.utils.nbsp> [minicap_server]b'INFO: (external/MY_minicap/src/minicap_29.cpp:264) Setting buffer options'
+[11:08:47][DEBUG]<airtest.utils.nbsp> [minicap_server]b'INFO: (external/MY_minicap/src/minicap_29.cpp:268) Creating CPU consumer'
+[11:08:47][DEBUG]<airtest.utils.nbsp> [minicap_server]b'INFO: (external/MY_minicap/src/minicap_29.cpp:272) Creating frame waiter'
+[11:08:47][DEBUG]<airtest.utils.nbsp> [minicap_server]b'INFO: (external/MY_minicap/src/minicap_29.cpp:276) Publishing virtual display'
+[11:08:47][DEBUG]<airtest.utils.nbsp> [minicap_server]b'INFO: (jni/minicap/JpgEncoder.cpp:64) Allocating 7678980 bytes for JPG encoder'
+[11:08:47][DEBUG]<airtest.utils.nbsp> [minicap_server]b'INFO: (jni/minicap/minicap.cpp:489) Server start'
+[11:08:47][DEBUG]<airtest.utils.nbsp> [minicap_server]b'INFO: (jni/minicap/minicap.cpp:492) New client connection'
+[11:08:47][DEBUG]<airtest.core.android.minicap> (1, 24, 6500, 1080, 2340, 1080, 2340, 0, 2)
+[11:08:47][DEBUG]<airtest.core.api> try match with SURFMatching
+[11:08:47][DEBUG]<airtest.aircv.keypoint_base> [SURF] threshold=0.7, result={'result': (529, 1938), 'rectangle': [(196, 1824), (196, 2053), (862, 2053), (862, 1824)], 'confidence': 0.9015152156352997}
+[11:08:47][DEBUG]<airtest.aircv.keypoint_base> find_best_result() run time is 0.44 s.
+[11:08:47][DEBUG]<airtest.core.api> match result: {'result': (529, 1938), 'rectangle': [(196, 1824), (196, 2053), (862, 2053), (862, 1824)], 'confidence': 0.9015152156352997}

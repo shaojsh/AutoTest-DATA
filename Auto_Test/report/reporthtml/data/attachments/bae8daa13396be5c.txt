@@ -1,0 +1,41 @@
+[09:46:28][DEBUG]<airtest.core.android.adb> D:\python\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 4ed137f8 shell monkey -p com.future.shopping -c android.intent.category.LAUNCHER 1
+[09:46:33][INFO]<airtest.core.api> Try finding:
+Template(tpl1637544713618.png)
+[09:46:33][DEBUG]<airtest.core.android.adb> D:\python\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 4ed137f8 shell pm path jp.co.cyberagent.stf.rotationwatcher
+[09:46:33][DEBUG]<airtest.core.android.adb> D:\python\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 4ed137f8 install -r D:\python\lib\site-packages\airtest\core\android\static\apks\RotationWatcher.apk
+[09:46:38][DEBUG]<airtest.core.android.adb> D:\python\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 4ed137f8 shell pm path jp.co.cyberagent.stf.rotationwatcher
+[09:46:39][DEBUG]<airtest.core.android.adb> D:\python\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 4ed137f8 shell export CLASSPATH=/data/app/jp.co.cyberagent.stf.rotationwatcher-pLiW-_SZueiC_Xz7IK9I-g==/base.apk;exec app_process /system/bin jp.co.cyberagent.stf.rotationwatcher.RotationWatcher
+[09:46:39][DEBUG]<airtest.core.android.adb> D:\python\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 4ed137f8 shell ls /data/local/tmp/minicap
+[09:46:39][DEBUG]<airtest.core.android.adb> D:\python\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 4ed137f8 shell ls /data/local/tmp/minicap.so
+[09:46:39][DEBUG]<airtest.core.android.adb> D:\python\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 4ed137f8 shell LD_LIBRARY_PATH=/data/local/tmp /data/local/tmp/minicap -v 2>&1
+[09:46:39][DEBUG]<airtest.core.android.minicap> version:5
+[09:46:39][DEBUG]<airtest.core.android.minicap> upgrade minicap to lastest version: 5->6
+[09:46:39][DEBUG]<airtest.core.android.adb> D:\python\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 4ed137f8 shell rm /data/local/tmp/minicap*
+[09:46:40][DEBUG]<airtest.core.android.adb> D:\python\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 4ed137f8 shell getprop ro.product.cpu.abi
+[09:46:40][DEBUG]<airtest.core.android.adb> D:\python\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 4ed137f8 shell getprop ro.build.version.preview_sdk
+[09:46:40][DEBUG]<airtest.core.android.adb> D:\python\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 4ed137f8 shell getprop ro.build.version.release
+[09:46:40][DEBUG]<airtest.core.android.adb> D:\python\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 4ed137f8 push D:\python\lib\site-packages\airtest\core\android\static\stf_libs\arm64-v8a\minicap /data/local/tmp/minicap
+[09:46:40][DEBUG]<airtest.core.android.adb> D:\python\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 4ed137f8 shell chmod 755 /data/local/tmp/minicap
+[09:46:40][DEBUG]<airtest.core.android.adb> D:\python\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 4ed137f8 push D:\python\lib\site-packages\airtest\core\android\static\stf_libs\minicap-shared/aosp/libs/android-29/arm64-v8a/minicap.so /data/local/tmp/minicap.so
+[09:46:40][DEBUG]<airtest.core.android.adb> D:\python\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 4ed137f8 shell chmod 755 /data/local/tmp/minicap.so
+[09:46:40][INFO]<airtest.core.android.minicap> minicap installation finished
+[09:46:40][DEBUG]<airtest.core.android.adb> D:\python\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 4ed137f8 forward --no-rebind tcp:15386 localabstract:minicap_15386
+[09:46:40][DEBUG]<airtest.core.android.adb> D:\python\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 4ed137f8 shell LD_LIBRARY_PATH=/data/local/tmp /data/local/tmp/minicap -i
+[09:46:40][DEBUG]<airtest.core.android.adb> D:\python\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 4ed137f8 shell dumpsys window displays
+[09:46:41][DEBUG]<airtest.core.android.adb> D:\python\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 4ed137f8 shell LD_LIBRARY_PATH=/data/local/tmp /data/local/tmp/minicap -n 'minicap_15386' -P 1080x2340@1080x2340/0 -l 2>&1
+[09:46:41][DEBUG]<airtest.utils.nbsp> [minicap_server]b'PID: 4290'
+[09:46:41][DEBUG]<airtest.utils.nbsp> [minicap_server]b'INFO: Using projection 1080x2340@1080x2340/0'
+[09:46:41][DEBUG]<airtest.utils.nbsp> [minicap_server]b'INFO: (external/MY_minicap/src/minicap_29.cpp:241) Creating SurfaceComposerClient'
+[09:46:41][DEBUG]<airtest.utils.nbsp> [minicap_server]b'INFO: (external/MY_minicap/src/minicap_29.cpp:244) Performing SurfaceComposerClient init check'
+[09:46:41][DEBUG]<airtest.utils.nbsp> [minicap_server]b'INFO: (external/MY_minicap/src/minicap_29.cpp:255) Creating virtual display'
+[09:46:41][DEBUG]<airtest.utils.nbsp> [minicap_server]b'INFO: (external/MY_minicap/src/minicap_29.cpp:261) Creating buffer queue'
+[09:46:41][DEBUG]<airtest.utils.nbsp> [minicap_server]b'INFO: (external/MY_minicap/src/minicap_29.cpp:264) Setting buffer options'
+[09:46:41][DEBUG]<airtest.utils.nbsp> [minicap_server]b'INFO: (external/MY_minicap/src/minicap_29.cpp:268) Creating CPU consumer'
+[09:46:41][DEBUG]<airtest.utils.nbsp> [minicap_server]b'INFO: (external/MY_minicap/src/minicap_29.cpp:272) Creating frame waiter'
+[09:46:41][DEBUG]<airtest.utils.nbsp> [minicap_server]b'INFO: (external/MY_minicap/src/minicap_29.cpp:276) Publishing virtual display'
+[09:46:41][DEBUG]<airtest.utils.nbsp> [minicap_server]b'INFO: (jni/minicap/JpgEncoder.cpp:64) Allocating 7678980 bytes for JPG encoder'
+[09:46:41][DEBUG]<airtest.utils.nbsp> [minicap_server]b'INFO: (jni/minicap/minicap.cpp:489) Server start'
+[09:46:41][DEBUG]<airtest.utils.nbsp> [minicap_server]b'INFO: (jni/minicap/minicap.cpp:492) New client connection'
+[09:46:41][DEBUG]<airtest.core.android.minicap> (1, 24, 4290, 1080, 2340, 1080, 2340, 0, 2)
+[09:46:41][DEBUG]<airtest.core.android.adb> D:\python\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 4ed137f8 shell LD_LIBRARY_PATH=/data/local/tmp /data/local/tmp/minicap -i
+[09:46:41][DEBUG]<airtest.core.android.adb> D:\python\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 4ed137f8 shell dumpsys window displays

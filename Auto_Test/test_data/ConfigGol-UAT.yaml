@@ -5,7 +5,7 @@
 test_path_list:
   url_ui1: '/test_case/test_Api_demo/test_api_per.py'
   url_ui: '/test_flow/'
-  url_ui2: '/test_flow/test_Authentication/test_backStage_authentication.py'
+  url_ui2: '/test_flow/test_Authentication/test_backStage_authentication.py/'
   url_ui_forward: 'https://cjt-uat.chengtay.com/user/login'
   url_ui_back: 'https://cjt-admin-uat.chengtay.com/#/account/login'
   url_ui_register: 'https://cjt-uat.chengtay.com/user/register'

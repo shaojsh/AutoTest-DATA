@@ -1,2 +1,4 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"broken","Fri Nov 12 13:47:13 CST 2021","Fri Nov 12 13:47:17 CST 2021","3593","test_flow.test_Authentication","test_jenkinsDebug","","","","test_baidu","测试 http://10.10.128.152:10053/user/register 中小微企业注册流程"
+"passed","Mon Nov 22 11:14:11 CST 2021","Mon Nov 22 11:15:17 CST 2021","65864","test_flow.test_Authentication","test_jenkinsDebug","","","","test_Android","测试 小程序自动化疏通测试-Android"
+"broken","Mon Nov 22 09:39:28 CST 2021","Mon Nov 22 09:39:31 CST 2021","3549","test_flow.test_Authentication","test_jenkinsDebug","","","","test111_baidu","测试 http://10.10.128.152:10053/user/register 中小微企业注册流程"
+"broken","Mon Nov 22 09:38:12 CST 2021","Mon Nov 22 09:38:19 CST 2021","6814","test_flow.test_Authentication","test_jenkinsDebug","","","","test_baidu","测试 http://10.10.128.152:10053/user/register 中小微企业注册流程"

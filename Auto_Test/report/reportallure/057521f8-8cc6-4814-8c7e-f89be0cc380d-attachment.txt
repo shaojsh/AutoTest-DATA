@@ -1,0 +1,1 @@
+DEBUG    airtest.core.android.adb:adb.py:144 D:\python\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 4ed137f8 shell monkey -p com.future.shopping -c android.intent.category.LAUNCHER 1

@@ -1,0 +1,18 @@
+[10:52:10][DEBUG]<airtest.core.android.adb> D:\python\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 4ed137f8 shell pm clear com.future.shopping
+[10:52:10][DEBUG]<airtest.core.android.adb> D:\python\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 4ed137f8 shell monkey -p com.future.shopping -c android.intent.category.LAUNCHER 1
+[10:52:22][DEBUG]<airtest.core.android.adb> D:\python\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 4ed137f8 shell ls /data/local/tmp/minicap
+[10:52:22][DEBUG]<airtest.core.android.adb> D:\python\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 4ed137f8 shell ls /data/local/tmp/minicap.so
+[10:52:22][DEBUG]<airtest.core.android.adb> D:\python\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 4ed137f8 shell LD_LIBRARY_PATH=/data/local/tmp /data/local/tmp/minicap -v 2>&1
+[10:52:22][DEBUG]<airtest.core.android.minicap> version:6
+[10:52:22][DEBUG]<airtest.core.android.minicap> skip install minicap
+[10:52:22][DEBUG]<airtest.core.android.adb> D:\python\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 4ed137f8 shell LD_LIBRARY_PATH=/data/local/tmp /data/local/tmp/minicap -i
+[10:52:23][DEBUG]<airtest.core.android.adb> D:\python\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 4ed137f8 shell dumpsys window displays
+[10:52:23][DEBUG]<airtest.core.android.adb> D:\python\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 4ed137f8 shell ls /data/local/tmp/maxpresent.jar
+[10:52:23][DEBUG]<airtest.core.android.adb> D:\python\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 4ed137f8 shell stat -c %s /data/local/tmp/maxpresent.jar
+[10:52:23][DEBUG]<airtest.core.android.touch_methods.maxtouch> install maxpresent.jar skipped
+[10:52:23][DEBUG]<airtest.core.android.adb> D:\python\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 4ed137f8 shell LD_LIBRARY_PATH=/data/local/tmp /data/local/tmp/minicap -i
+[10:52:23][DEBUG]<airtest.core.android.adb> D:\python\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 4ed137f8 shell dumpsys window displays
+[10:52:23][DEBUG]<airtest.core.android.adb> D:\python\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 4ed137f8 forward --no-rebind tcp:18604 localabstract:maxpresent_18604
+[10:52:23][DEBUG]<airtest.core.android.adb> D:\python\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 4ed137f8 shell app_process -Djava.class.path=/data/local/tmp/maxpresent.jar /data/local/tmp com.netease.maxpresent.MaxPresent socket maxpresent_18604
+[10:52:24][DEBUG]<airtest.utils.nbsp> [airtouch_server]b'Metrics Message : 2340.0=====1080.0'
+[10:52:24][DEBUG]<airtest.utils.nbsp> [airtouch_server]b'Start local socket (maxpresent_18604) server...'

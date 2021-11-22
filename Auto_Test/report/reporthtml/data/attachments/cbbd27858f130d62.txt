@@ -1,0 +1,5 @@
+[10:26:42][DEBUG]<airtest.core.android.adb> D:\python\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 4ed137f8 shell am force-stop com.netease.open.pocoservice
+[10:26:42][DEBUG]<airtest.core.android.adb> D:\python\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 4ed137f8 shell am start -n com.netease.open.pocoservice/.TestActivity
+[10:26:43][DEBUG]<airtest.core.android.adb> D:\python\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 4ed137f8 shell am instrument -w -e debug false -e class com.netease.open.pocoservice.InstrumentedTestAsLauncher com.netease.open.pocoservice.test/android.support.test.runner.AndroidJUnitRunner
+[10:26:47][DEBUG]<airtest.core.android.adb> D:\python\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 4ed137f8 shell pm clear com.future.shopping
+[10:26:47][DEBUG]<airtest.core.android.adb> D:\python\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 4ed137f8 shell monkey -p com.future.shopping -c android.intent.category.LAUNCHER 1

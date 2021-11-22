@@ -1,0 +1,7 @@
+DEBUG    airtest.core.android.adb:adb.py:144 D:\python\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 4ed137f8 shell monkey -p com.future.shopping -c android.intent.category.LAUNCHER 1
+DEBUG    airtest.core.android.adb:adb.py:144 D:\python\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 4ed137f8 shell dumpsys package com.netease.nie.yosemite
+INFO     airtest.core.android.yosemite:yosemite.py:38 local version code is 302, installed version code is 303
+DEBUG    airtest.core.android.adb:adb.py:144 D:\python\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 4ed137f8 shell settings get secure default_input_method
+DEBUG    airtest.core.android.adb:adb.py:144 D:\python\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 4ed137f8 shell ime list -a
+DEBUG    airtest.core.android.adb:adb.py:144 D:\python\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 4ed137f8 shell am broadcast -a ADB_INPUT_TEXT --es msg '123456'
+DEBUG    airtest.core.android.adb:adb.py:144 D:\python\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 4ed137f8 shell input keyevent ENTER

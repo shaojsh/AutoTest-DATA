@@ -11,18 +11,18 @@ from poco.drivers.android.uiautomation import AndroidUiautomationPoco
 
 try:
     poco = AndroidUiautomationPoco(use_airtest_input=True, screenshot_each_action=False)
+    screenWidth, screenHeigth = poco.get_screen_size()
 except:
     print('未驱动手机')
 
 
-# 打开微信
-def startWeinxin():
-    # 打开微信
-    start_app("com.tencent.mm")
-    poco(text='发现').click()  # 发现按钮
-    poco(text="小程序").click()
-    poco(text="诚泰财金通").click()
+# 打开SmartXueWei App
+def startSmartXueWeiApp():
+    # 清除缓存
+    clear_app('com.future.shopping')
+    # 打开智慧徐圩app
+    start_app("com.future.shopping")
 
 
 if __name__ == '__main__':
-    startWeinxin()
+    startSmartXueWeiApp()

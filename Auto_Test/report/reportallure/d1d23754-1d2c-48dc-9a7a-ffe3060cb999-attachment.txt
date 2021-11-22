@@ -1,0 +1,3 @@
+[pocoservice.apk] stdout: b'\r\ncom.netease.open.pocoservice.InstrumentedTestAsLauncher:INSTRUMENTATION_RESULT: shortMsg=Process crashed.\r\nINSTRUMENTATION_CODE: 0\r\n'
+[pocoservice.apk] stderr: b''
+still waiting for uiautomation ready.

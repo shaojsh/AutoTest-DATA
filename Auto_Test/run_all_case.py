@@ -47,9 +47,8 @@ yamldict = handleyaml.get_data()
 
 mobileDriver = ''
 if runMode != 'UI':
-    pass
-    # import androidBaseFlow
-    # mobileDriver = androidBaseFlow.poco
+    import androidBaseFlow
+    mobileDriver = androidBaseFlow.poco
 file = os.path.basename(sys.argv[0])
 log = Log(file)
 logger = log.Logger

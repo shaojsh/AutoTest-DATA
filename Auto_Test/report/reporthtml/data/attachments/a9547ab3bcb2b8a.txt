@@ -1,0 +1,1 @@
+[10:14:47][DEBUG]<airtest.core.android.adb> D:\python\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 4ed137f8 shell monkey -p hongao.xuweimonitor -c android.intent.category.LAUNCHER 1

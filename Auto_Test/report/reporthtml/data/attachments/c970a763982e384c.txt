@@ -1,0 +1,2 @@
+[09:43:00][INFO]<airtest.core.api> Try finding:
+Template(tpl1637544713618.png)

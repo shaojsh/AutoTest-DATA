@@ -1,0 +1,54 @@
+[10:04:31][DEBUG]<airtest.core.android.adb> D:\python\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 4ed137f8 shell monkey -p com.future.shopping -c android.intent.category.LAUNCHER 1
+[10:04:42][INFO]<airtest.core.api> Try finding:
+Template(C:\Users\Administrator\AutoTest-DaTa\Auto_Test\test_data\picture\img.png)
+[10:04:42][DEBUG]<airtest.core.android.adb> D:\python\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 4ed137f8 shell pm path jp.co.cyberagent.stf.rotationwatcher
+[10:04:42][DEBUG]<airtest.core.android.adb> D:\python\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 4ed137f8 shell export CLASSPATH=/data/app/jp.co.cyberagent.stf.rotationwatcher-pLiW-_SZueiC_Xz7IK9I-g==/base.apk;exec app_process /system/bin jp.co.cyberagent.stf.rotationwatcher.RotationWatcher
+[10:04:43][DEBUG]<airtest.core.android.adb> D:\python\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 4ed137f8 shell ls /data/local/tmp/minicap
+[10:04:43][DEBUG]<airtest.core.android.adb> D:\python\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 4ed137f8 shell ls /data/local/tmp/minicap.so
+[10:04:43][DEBUG]<airtest.core.android.adb> D:\python\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 4ed137f8 shell LD_LIBRARY_PATH=/data/local/tmp /data/local/tmp/minicap -v 2>&1
+[10:04:43][DEBUG]<airtest.core.android.minicap> version:6
+[10:04:43][DEBUG]<airtest.core.android.minicap> skip install minicap
+[10:04:43][DEBUG]<airtest.core.android.adb> D:\python\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 4ed137f8 forward --no-rebind tcp:15355 localabstract:minicap_15355
+[10:04:43][DEBUG]<airtest.core.android.adb> D:\python\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 4ed137f8 shell LD_LIBRARY_PATH=/data/local/tmp /data/local/tmp/minicap -i
+[10:04:43][DEBUG]<airtest.core.android.adb> D:\python\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 4ed137f8 shell dumpsys window displays
+[10:04:44][DEBUG]<airtest.core.android.adb> D:\python\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 4ed137f8 shell LD_LIBRARY_PATH=/data/local/tmp /data/local/tmp/minicap -n 'minicap_15355' -P 1080x2340@1080x2340/0 -l 2>&1
+[10:04:44][DEBUG]<airtest.utils.nbsp> [minicap_server]b'PID: 14105'
+[10:04:44][DEBUG]<airtest.utils.nbsp> [minicap_server]b'INFO: Using projection 1080x2340@1080x2340/0'
+[10:04:44][DEBUG]<airtest.utils.nbsp> [minicap_server]b'INFO: (external/MY_minicap/src/minicap_29.cpp:241) Creating SurfaceComposerClient'
+[10:04:44][DEBUG]<airtest.utils.nbsp> [minicap_server]b'INFO: (external/MY_minicap/src/minicap_29.cpp:244) Performing SurfaceComposerClient init check'
+[10:04:44][DEBUG]<airtest.utils.nbsp> [minicap_server]b'INFO: (external/MY_minicap/src/minicap_29.cpp:255) Creating virtual display'
+[10:04:44][DEBUG]<airtest.utils.nbsp> [minicap_server]b'INFO: (external/MY_minicap/src/minicap_29.cpp:261) Creating buffer queue'
+[10:04:44][DEBUG]<airtest.utils.nbsp> [minicap_server]b'INFO: (external/MY_minicap/src/minicap_29.cpp:264) Setting buffer options'
+[10:04:44][DEBUG]<airtest.utils.nbsp> [minicap_server]b'INFO: (external/MY_minicap/src/minicap_29.cpp:268) Creating CPU consumer'
+[10:04:44][DEBUG]<airtest.utils.nbsp> [minicap_server]b'INFO: (external/MY_minicap/src/minicap_29.cpp:272) Creating frame waiter'
+[10:04:44][DEBUG]<airtest.utils.nbsp> [minicap_server]b'INFO: (external/MY_minicap/src/minicap_29.cpp:276) Publishing virtual display'
+[10:04:44][DEBUG]<airtest.utils.nbsp> [minicap_server]b'INFO: (jni/minicap/JpgEncoder.cpp:64) Allocating 7678980 bytes for JPG encoder'
+[10:04:44][DEBUG]<airtest.utils.nbsp> [minicap_server]b'INFO: (jni/minicap/minicap.cpp:489) Server start'
+[10:04:44][DEBUG]<airtest.utils.nbsp> [minicap_server]b'INFO: (jni/minicap/minicap.cpp:492) New client connection'
+[10:04:44][DEBUG]<airtest.core.android.minicap> (1, 24, 14105, 1080, 2340, 1080, 2340, 0, 2)
+[10:04:44][DEBUG]<airtest.utils.nbsp> [minicap_server]b'INFO: (jni/minicap/minicap.cpp:128) [adolli] @pumps send error, ret=-1'
+[10:04:44][DEBUG]<airtest.utils.nbsp> [minicap_server]b'INFO: (jni/minicap/minicap.cpp:129) [adolli] @pumps errno=14'
+[10:04:44][DEBUG]<airtest.utils.nbsp> [minicap_server]b'INFO: (jni/minicap/minicap.cpp:611) send error,close connection'
+[10:04:44][DEBUG]<airtest.utils.nbsp> [minicap_server]b'INFO: (jni/minicap/minicap.cpp:619) Closing client connection'
+[10:04:45][DEBUG]<airtest.core.android.adb> D:\python\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 4ed137f8 forward --no-rebind tcp:18892 localabstract:minicap_18892
+[10:04:45][DEBUG]<airtest.core.android.adb> D:\python\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 4ed137f8 shell LD_LIBRARY_PATH=/data/local/tmp /data/local/tmp/minicap -i
+[10:04:45][DEBUG]<airtest.core.android.adb> D:\python\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 4ed137f8 shell dumpsys window displays
+[10:04:45][DEBUG]<airtest.core.android.adb> D:\python\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 4ed137f8 shell LD_LIBRARY_PATH=/data/local/tmp /data/local/tmp/minicap -n 'minicap_18892' -P 1080x2340@1080x2340/0 -l 2>&1
+[10:04:46][DEBUG]<airtest.utils.nbsp> [minicap_server]b'PID: 14138'
+[10:04:46][DEBUG]<airtest.utils.nbsp> [minicap_server]b'INFO: Using projection 1080x2340@1080x2340/0'
+[10:04:46][DEBUG]<airtest.utils.nbsp> [minicap_server]b'INFO: (external/MY_minicap/src/minicap_29.cpp:241) Creating SurfaceComposerClient'
+[10:04:46][DEBUG]<airtest.utils.nbsp> [minicap_server]b'INFO: (external/MY_minicap/src/minicap_29.cpp:244) Performing SurfaceComposerClient init check'
+[10:04:46][DEBUG]<airtest.utils.nbsp> [minicap_server]b'INFO: (external/MY_minicap/src/minicap_29.cpp:255) Creating virtual display'
+[10:04:46][DEBUG]<airtest.utils.nbsp> [minicap_server]b'INFO: (external/MY_minicap/src/minicap_29.cpp:261) Creating buffer queue'
+[10:04:46][DEBUG]<airtest.utils.nbsp> [minicap_server]b'INFO: (external/MY_minicap/src/minicap_29.cpp:264) Setting buffer options'
+[10:04:46][DEBUG]<airtest.utils.nbsp> [minicap_server]b'INFO: (external/MY_minicap/src/minicap_29.cpp:268) Creating CPU consumer'
+[10:04:46][DEBUG]<airtest.utils.nbsp> [minicap_server]b'INFO: (external/MY_minicap/src/minicap_29.cpp:272) Creating frame waiter'
+[10:04:46][DEBUG]<airtest.utils.nbsp> [minicap_server]b'INFO: (external/MY_minicap/src/minicap_29.cpp:276) Publishing virtual display'
+[10:04:46][DEBUG]<airtest.utils.nbsp> [minicap_server]b'INFO: (jni/minicap/JpgEncoder.cpp:64) Allocating 7678980 bytes for JPG encoder'
+[10:04:46][DEBUG]<airtest.utils.nbsp> [minicap_server]b'INFO: (jni/minicap/minicap.cpp:489) Server start'
+[10:04:46][DEBUG]<airtest.core.android.minicap> (1, 24, 14138, 1080, 2340, 1080, 2340, 0, 2)
+[10:04:46][DEBUG]<airtest.utils.nbsp> [minicap_server]b'INFO: (jni/minicap/minicap.cpp:492) New client connection'
+[10:04:46][DEBUG]<airtest.utils.nbsp> [minicap_server]b'INFO: (jni/minicap/minicap.cpp:128) [adolli] @pumps send error, ret=-1'
+[10:04:46][DEBUG]<airtest.utils.nbsp> [minicap_server]b'INFO: (jni/minicap/minicap.cpp:129) [adolli] @pumps errno=14'
+[10:04:46][DEBUG]<airtest.utils.nbsp> [minicap_server]b'INFO: (jni/minicap/minicap.cpp:611) send error,close connection'
+[10:04:46][DEBUG]<airtest.utils.nbsp> [minicap_server]b'INFO: (jni/minicap/minicap.cpp:619) Closing client connection'

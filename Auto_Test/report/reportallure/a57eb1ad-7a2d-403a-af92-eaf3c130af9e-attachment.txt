@@ -1,0 +1,2 @@
+INFO     airtest.core.api:cv.py:56 Try finding:
+Template(tpl1637544713618.png)

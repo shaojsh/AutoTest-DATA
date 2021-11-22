@@ -1,0 +1,100 @@
+{
+  "uid" : "fd03745273296289",
+  "name" : "test_Android",
+  "fullName" : "test_flow.test_Authentication.test_jenkinsDebug#test_Android",
+  "historyId" : "037f6ac01dca35d949e1d56271286eaa",
+  "time" : {
+    "start" : 1637545588666,
+    "stop" : 1637545604488,
+    "duration" : 15822
+  },
+  "description" : "测试 小程序自动化疏通测试-Android",
+  "descriptionHtml" : "<p>测试 小程序自动化疏通测试-Android</p>\n",
+  "status" : "broken",
+  "statusMessage" : "airtest.aircv.error.FileNotExistError: File not exist: tpl1637544713618.png",
+  "statusTrace" : "@pytest.mark.run(order=1)\n    @allure.severity(\"blocker\")\n    @allure.description(\"测试 小程序自动化疏通测试-Android\")\n    def test_Android():\n        startApp()\n>       touch(Template(r\"tpl1637544713618.png\", record_pos=(-0.08, 0.103), resolution=(1080, 2340)))\n\ntest_flow\\test_Authentication\\test_jenkinsDebug.py:44: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nD:\\python\\lib\\site-packages\\airtest\\utils\\logwraper.py:71: in wrapper\n    res = f(*args, **kwargs)\nD:\\python\\lib\\site-packages\\airtest\\core\\api.py:260: in touch\n    pos = loop_find(v, timeout=ST.FIND_TIMEOUT)\nD:\\python\\lib\\site-packages\\airtest\\utils\\logwraper.py:71: in wrapper\n    res = f(*args, **kwargs)\nD:\\python\\lib\\site-packages\\airtest\\core\\cv.py:66: in loop_find\n    match_pos = query.match_in(screen)\nD:\\python\\lib\\site-packages\\airtest\\core\\cv.py:139: in match_in\n    match_result = self._cv_match(screen)\nD:\\python\\lib\\site-packages\\airtest\\utils\\logwraper.py:71: in wrapper\n    res = f(*args, **kwargs)\nD:\\python\\lib\\site-packages\\airtest\\core\\cv.py:154: in _cv_match\n    image = self._imread()\nD:\\python\\lib\\site-packages\\airtest\\core\\cv.py:183: in _imread\n    return aircv.imread(self.filepath)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nfilename = 'tpl1637544713618.png', flatten = False\n\n    def imread(filename, flatten=False):\n        \"\"\"根据图片路径，将图片读取为cv2的图片处理格式.\"\"\"\n        if not os.path.isfile(filename):\n>           raise FileNotExistError(\"File not exist: %s\" % filename)\nE           airtest.aircv.error.FileNotExistError: File not exist: tpl1637544713618.png\n\nD:\\python\\lib\\site-packages\\airtest\\aircv\\aircv.py:15: FileNotExistError",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1637545588574,
+      "stop" : 1637545588664,
+      "duration" : 90
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "测试 小程序自动化疏通测试-Android",
+    "status" : "broken",
+    "statusMessage" : "airtest.aircv.error.FileNotExistError: File not exist: tpl1637544713618.png",
+    "statusTrace" : "@pytest.mark.run(order=1)\n    @allure.severity(\"blocker\")\n    @allure.description(\"测试 小程序自动化疏通测试-Android\")\n    def test_Android():\n        startApp()\n>       touch(Template(r\"tpl1637544713618.png\", record_pos=(-0.08, 0.103), resolution=(1080, 2340)))\n\ntest_flow\\test_Authentication\\test_jenkinsDebug.py:44: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nD:\\python\\lib\\site-packages\\airtest\\utils\\logwraper.py:71: in wrapper\n    res = f(*args, **kwargs)\nD:\\python\\lib\\site-packages\\airtest\\core\\api.py:260: in touch\n    pos = loop_find(v, timeout=ST.FIND_TIMEOUT)\nD:\\python\\lib\\site-packages\\airtest\\utils\\logwraper.py:71: in wrapper\n    res = f(*args, **kwargs)\nD:\\python\\lib\\site-packages\\airtest\\core\\cv.py:66: in loop_find\n    match_pos = query.match_in(screen)\nD:\\python\\lib\\site-packages\\airtest\\core\\cv.py:139: in match_in\n    match_result = self._cv_match(screen)\nD:\\python\\lib\\site-packages\\airtest\\utils\\logwraper.py:71: in wrapper\n    res = f(*args, **kwargs)\nD:\\python\\lib\\site-packages\\airtest\\core\\cv.py:154: in _cv_match\n    image = self._imread()\nD:\\python\\lib\\site-packages\\airtest\\core\\cv.py:183: in _imread\n    return aircv.imread(self.filepath)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nfilename = 'tpl1637544713618.png', flatten = False\n\n    def imread(filename, flatten=False):\n        \"\"\"根据图片路径，将图片读取为cv2的图片处理格式.\"\"\"\n        if not os.path.isfile(filename):\n>           raise FileNotExistError(\"File not exist: %s\" % filename)\nE           airtest.aircv.error.FileNotExistError: File not exist: tpl1637544713618.png\n\nD:\\python\\lib\\site-packages\\airtest\\aircv\\aircv.py:15: FileNotExistError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e0df7d5e24323c59",
+      "name" : "log",
+      "source" : "e0df7d5e24323c59.txt",
+      "type" : "text/plain",
+      "size" : 6411
+    }, {
+      "uid" : "bae8daa13396be5c",
+      "name" : "stderr",
+      "source" : "bae8daa13396be5c.txt",
+      "type" : "text/plain",
+      "size" : 6358
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_flow.test_Authentication"
+  }, {
+    "name" : "suite",
+    "value" : "test_jenkinsDebug"
+  }, {
+    "name" : "host",
+    "value" : "BF-202011271053"
+  }, {
+    "name" : "thread",
+    "value" : "11940-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_flow.test_Authentication.test_jenkinsDebug"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "run(order=1)" ]
+  },
+  "source" : "fd03745273296289.json",
+  "parameterValues" : [ ]
+}

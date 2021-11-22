@@ -1,0 +1,100 @@
+{
+  "uid" : "da549788144e43a3",
+  "name" : "test_baidu",
+  "fullName" : "test_flow.test_Authentication.test_jenkinsDebug#test_baidu",
+  "historyId" : "ef18f58fa35399a0b182df8cebb7c760",
+  "time" : {
+    "start" : 1635494856256,
+    "stop" : 1635494861349,
+    "duration" : 5093
+  },
+  "description" : "测试 http://10.10.128.152:10053/user/register 中小微企业注册流程",
+  "descriptionHtml" : "<p>测试 http://10.10.128.152:10053/user/register 中小微企业注册流程</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1635494856181,
+      "stop" : 1635494856255,
+      "duration" : 74
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "测试 http://10.10.128.152:10053/user/register 中小微企业注册流程",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "1df4661ab63b8d06",
+      "name" : "log",
+      "source" : "1df4661ab63b8d06.txt",
+      "type" : "text/plain",
+      "size" : 111
+    }, {
+      "uid" : "bffcf6a3aadb5cf2",
+      "name" : "stderr",
+      "source" : "bffcf6a3aadb5cf2.txt",
+      "type" : "text/plain",
+      "size" : 157
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_flow.test_Authentication"
+  }, {
+    "name" : "suite",
+    "value" : "test_jenkinsDebug"
+  }, {
+    "name" : "host",
+    "value" : "BF-202011271053"
+  }, {
+    "name" : "thread",
+    "value" : "2708-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_flow.test_Authentication.test_jenkinsDebug"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "注册 \uD83D\uDC47",
+    "url" : "http://10.10.128.152:10053/user/register",
+    "type" : "test_case"
+  } ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "run(order=1)" ]
+  },
+  "source" : "da549788144e43a3.json",
+  "parameterValues" : [ ]
+}

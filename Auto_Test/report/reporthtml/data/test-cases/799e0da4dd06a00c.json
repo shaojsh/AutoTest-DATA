@@ -1,0 +1,73 @@
+{
+  "uid" : "799e0da4dd06a00c",
+  "name" : "test_Android",
+  "fullName" : "test_flow.test_Authentication.test_jenkinsDebug#test_Android",
+  "historyId" : "037f6ac01dca35d949e1d56271286eaa",
+  "time" : {
+    "start" : 1637543875728,
+    "stop" : 1637543875728,
+    "duration" : 0
+  },
+  "description" : "测试 小程序自动化疏通测试",
+  "descriptionHtml" : "<p>测试 小程序自动化疏通测试</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1637543875637,
+      "stop" : 1637543875726,
+      "duration" : 89
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_flow.test_Authentication"
+  }, {
+    "name" : "suite",
+    "value" : "test_jenkinsDebug"
+  }, {
+    "name" : "host",
+    "value" : "BF-202011271053"
+  }, {
+    "name" : "thread",
+    "value" : "11744-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_flow.test_Authentication.test_jenkinsDebug"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "run(order=1)" ]
+  },
+  "source" : "799e0da4dd06a00c.json",
+  "parameterValues" : [ ]
+}
